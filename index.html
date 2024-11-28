@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Masark</title>
+
+</head>
+
+<body>
+
+  <!-- logo -->
+
+  <section class="  pt-10  ">
+    <div class="w-full flex items-center justify-center min-h-14">
+      <img class="lg:w-1/6 w-1/3 " src="assets/image (13).png" alt="logo">
+    </div>
+  </section>
+
+  <!-- introduction -->
+  <section>
+    <div class=" max-w-[85%] pb-10 mx-auto">
+      <h1 class="lg:text-8xl text-5xl  font-bold text-center">Introduction To <span
+          class="mainColor inline-block md:inline"> AI
+          Literacy</span> </h1>
+    </div>
+
+    <div>
+      <div class="   py-5 mx-auto">
+        <img class="w-full " src="assets/home_no_white_bg.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- info -->
+
+  <section class="content w-4/5 mx-auto py-10   ">
+    <div class="w-3/4 mx-auto text-center">
+      <!-- program -->
+      <div>
+        <span class="bg-gray-200 p-2 font-bold rounded-lg md:text-3xl text-2xl uppercase mainColor"> Program : </span>
+        <h1 class="lg:text-5xl text-4xl mt-6  font-bold text-center">Introduction to AI Literacy for <span
+            class="mainColor inline-block md:inline">Egyptian Students</span> </h1>
+      </div>
+      <!-- Objective -->
+      <div class="my-10">
+        <span class="bg-gray-200 p-2 font-bold rounded-lg md:text-3xl text-2xl uppercase mainColor"> Objective </span>
+        <p class="mt-6 md:max-w-[85%] text-xl mx-auto text-white">Equip students with a basic understanding of
+          Artificial Intelligence (AI), its applications, ethical considerations, and how it impacts everyday life. By
+          the
+          end of this training, students will have the foundational knowledge needed to navigate and engage with AI
+          responsibly.</p>
+      </div>
+
+    </div>
+
+    <!-- Program Outline -->
+    <div>
+      <div class=" text-center">
+        <span class="bg-gray-200 p-2 font-bold rounded-lg md:text-3xl text-2xl uppercase mainColor"> Program Outline
+        </span>
+      </div>
+
+      <div class="  mx-auto mt-10 space-y-5">
+        <!-- Accordion Item 1 -->
+        <div class="accordion shadow-2xl">
+          <div onclick="toggleAccordion(this)"
+            class="accordion-header text-xl rounded-xl bg-gray-300 text-black flex justify-between items-center p-4 cursor-pointer transition-colors duration-300">
+            <span>1. Introduction to AI (30 minutes)</span>
+            <i class="icon fa-solid fa-angle-down"></i>
+          </div>
+          <div class="accordion-content text-lg max-h-0 overflow-hidden transition-all duration-300  ">
+            <div class="p-4 text-gray-200">
+              <ul class="list-disc  space-y-1 pl-6 ">
+                <li>
+                  <strong>Goal:</strong> Familiarize students with what AI is, its history, and its role in society.
+                </li>
+                <li>
+                  <strong>Topics Covered:</strong>
+                  <ul class=" pl-5  space-y-2 custom-list ">
+                    <li>Definition of AI: Understanding AI as a technology that enables machines to mimic human tasks.
+                    </li>
+                    <li>Brief History of AI: Key milestones in AI development and how it evolved to present-day
+                      technology.</li>
+                    <li>Types of AI: Explanation of narrow AI (e.g., voice assistants like Siri) vs. general AI (future
+                      potential).</li>
+                    <li>Interactive Discussion: Ask students what AI tools they may have used or encountered (e.g.,
+                      facial recognition, recommendation algorithms).</li>
+                  </ul>
+                </li>
+                <li><strong>Activity: AI Around Us -</strong> Students discuss examples of AI they use in daily life,
+                  such as social media, smartphones, or online shopping.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- Accordion Item 2 -->
+        <div class="accordion shadow-2xl">
+          <div onclick="toggleAccordion(this)"
+            class="accordion-header text-xl rounded-xl bg-gray-300 text-black flex justify-between items-center p-4 cursor-pointer transition-colors duration-300">
+            <span> 2. Real-World Applications of AI (25 minutes)</span>
+            <i class="icon fa-solid fa-angle-down"></i>
+          </div>
+          <div class="accordion-content text-lg max-h-0 overflow-hidden transition-all duration-300 ">
+            <div class="p-4 text-gray-200">
+              <ul class="list-disc  space-y-2 pl-6 ">
+                <li>
+                  <strong>Goal:</strong> Demonstrate how AI is applied across various sectors.
+                </li>
+                <li>
+                  <strong>Topics Covered:</strong>
+                  <ul class=" pl-6 custom-list space-y-2">
+                    <li>AI in Healthcare: Medical imaging, patient diagnosis.</li>
+                    <li>AI in Education: Adaptive learning platforms, language translation.</li>
+                    <li>AI in Business: Automation in customer service, supply chain management.</li>
+                    <li>AI in Entertainment: Recommendation systems in Netflix, YouTube, and Spotify.</li>
+                  </ul>
+                </li>
+                <li><strong>Activity: Interactive Video Quiz -</strong> Show a short video illustrating AI in various
+                  fields, followed by a quick quiz to reinforce learning.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- Accordion Item 3 -->
+        <div class="accordion shadow-2xl">
+          <div onclick="toggleAccordion(this)"
+            class="accordion-header text-xl rounded-xl bg-gray-300 text-black flex justify-between items-center p-4 cursor-pointer transition-colors duration-300">
+            <span> 3. Introduction to Machine Learning (20 minutes)</span>
+            <i class="icon fa-solid fa-angle-down"></i>
+          </div>
+          <div class="accordion-content text-lg max-h-0 overflow-hidden transition-all duration-300 ">
+            <div class="p-4 text-gray-200">
+              <ul class="list-disc  space-y-2 pl-6 ">
+                <li>
+                  <strong>Goal:</strong> Provide a basic understanding of machine learning as a subset of AI.
+                </li>
+                <li>
+                  <strong>Topics Covered:</strong>
+                  <ul class=" pl-6 custom-list space-y-2">
+                    <li>What is Machine Learning (ML)?: Explanation of how ML enables systems to learn from data.
+                    </li>
+                    <li>Types of ML: Supervised, unsupervised, and reinforcement learning.</li>
+                    <li><strong>Examples:</strong> Facial recognition, voice assistants, and spam filters.</li>
+                  </ul>
+                </li>
+                <li><strong>Activity: Hands-On Mini-Demo</strong>(if possible) – Use a simple tool like Teachable
+                  Machine (by Google) to show how a machine can learn to recognize images or sounds.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- Accordion Item 4 -->
+        <div class="accordion shadow-2xl">
+          <div onclick="toggleAccordion(this)"
+            class="accordion-header text-xl rounded-xl bg-gray-300 text-black flex justify-between items-center p-4 cursor-pointer transition-colors duration-300">
+            <span> 4. Ethical and Social Implications of AI (25 minutes)</span>
+            <i class="icon fa-solid fa-angle-down"></i>
+          </div>
+          <div class="accordion-content text-lg max-h-0 overflow-hidden transition-all duration-300 ">
+            <div class="p-4 text-gray-200">
+              <ul class="list-disc  space-y-2 pl-6">
+                <li>
+                  <strong>Goal:</strong> Discuss the importance of ethics in AI and responsible use.
+                </li>
+                <li>
+                  <strong>Topics Covered:</strong>
+                  <ul class=" pl-6 custom-list space-y-2">
+                    <li>Bias in AI: How biased data can lead to unfair outcomes. </li>
+                    <li>Privacy Concerns: Impact of AI on personal privacy.</li>
+                    <li>Job Automation: The effect of AI on future job markets.</li>
+                    <li><strong>Group Discussion:</strong> "Is AI always beneficial?" Encourage students to think
+                      critically about the pros and cons of AI.</li>
+                  </ul>
+                </li>
+                <li><strong>Activity: Scenario Debate -</strong> Present scenarios (e.g., using AI in hiring decisions)
+                  and have students discuss potential benefits and drawbacks.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- Accordion Item 5 -->
+        <div class="accordion shadow-2xl">
+          <div onclick="toggleAccordion(this)"
+            class="accordion-header text-xl rounded-xl bg-gray-300 text-black flex justify-between items-center p-4 cursor-pointer transition-colors duration-300">
+            <span> 5. The Future of AI and Career Paths (20 minutes)</span>
+            <i class="icon fa-solid fa-angle-down"></i>
+          </div>
+          <div class="accordion-content text-lg max-h-0 overflow-hidden transition-all duration-300 ">
+            <div class="p-4 text-gray-200">
+              <ul class="list-disc  space-y-2 pl-6">
+                <li>
+                  <strong>Goal:</strong> Inspire students to consider AI-related career opportunities.
+                </li>
+                <li>
+                  <strong>Topics Covered:</strong>
+                  <ul class=" pl-6 custom-list space-y-2">
+                    <li>AI Trends: Future of AI in robotics, climate change, space exploration. </li>
+                    <li>Careers in AI: Introduction to roles like data scientist, ML engineer, AI ethicist, etc.</li>
+                    <li>Resources for Further Learning: Share free online resources and courses on AI.</li>
+
+                  </ul>
+                </li>
+                <li><strong>Activity: Goal Mapping -</strong> Student’s brainstorm areas where they might want to learn
+                  more about AI or potential future career interests.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <!-- Accordion Item 6 -->
+        <div class="accordion shadow-2xl">
+          <div onclick="toggleAccordion(this)"
+            class="accordion-header text-xl rounded-xl bg-gray-300 text-black flex justify-between items-center p-4 cursor-pointer transition-colors duration-300">
+            <span> 6. Q&A and Wrap-Up (10 minutes)</span>
+            <i class="icon fa-solid fa-angle-down"></i>
+          </div>
+          <div class="accordion-content text-lg max-h-0 overflow-hidden transition-all duration-300 ">
+            <div class="p-4 text-gray-200">
+              <ul class="list-disc  space-y-2 pl-6">
+                <li>
+                  <strong>Goal:</strong> Address any remaining questions and review key takeaways.
+                </li>
+                <li><strong> Activity: AI Literacy Certificate</strong> - Reward students with a certificate of
+                  participation to reinforce the importance of AI literacy.</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials Needed -->
+  <section class="mb-5">
+    <div class="text-center mb-5">
+      <span class="bg-gray-200 text-center p-2 font-bold rounded-lg md:text-2xl text-2xl uppercase mainColor">
+        Materials Needed:
+      </span>
+    </div>
+
+    <div class="  py-10  w-4/5 mx-auto text-center border-solid border border-gray-100 rounded-3xl">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center gap-1">
+        <div class="">
+          <div class=" flex justify-center">
+            <div class="group">
+              <span
+                class="bg-gray-200 p-5 w-24 h-24 rounded-[32px] flex justify-center items-center transition-colors duration-300 group-hover:bg-[#ef4256]">
+                <i
+                  class="fa-solid fa-chalkboard text-5xl mainColor transition-colors duration-300 group-hover:text-white"></i>
+              </span>
+            </div>
+          </div>
+          <h2 class="my-5 text-md font-bold max-w-[70%] mx-auto ">Projector and screen for presentations.</h2>
+        </div>
+        <div class="">
+          <div class=" flex justify-center">
+            <div class="group">
+              <span
+                class="bg-gray-200 p-5 w-24 h-24 rounded-[32px] flex justify-center items-center transition-colors duration-300 group-hover:bg-[#ef4256]">
+                <i
+                  class="fa-solid fa-desktop text-5xl mainColor transition-colors duration-300 group-hover:text-white"></i>
+              </span>
+            </div>
+          </div>
+          <h2 class="my-5 text-md font-bold max-w-[70%] mx-auto">Laptops/tablets for hands-on activities.</h2>
+        </div>
+        <div class="">
+          <div class=" flex justify-center">
+            <div class="group">
+              <span
+                class="bg-gray-200 p-5 w-24 h-24 rounded-[32px] flex justify-center items-center transition-colors duration-300 group-hover:bg-[#ef4256]">
+                <i
+                  class="fa-solid fa-business-time text-5xl mainColor transition-colors duration-300 group-hover:text-white"></i>
+              </span>
+            </div>
+          </div>
+          <h2 class="my-5 text-md font-bold max-w-[70%] mx-auto">Handouts on AI careers, applications, and ethical
+            considerations.</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- price -->
+
+  <div class="text-center mb-5">
+    <span class="bg-gray-200 text-center p-2 font-bold rounded-lg md:text-2xl text-2xl uppercase mainColor">
+      Price: 500.00 EGP.
+    </span>
+  </div>
+
+  <!-- connect -->
+
+  <section class="w-3/4 mx-auto  my-5 py-5">
+    <div class="">
+      <h2 class="mainColor text-2xl">Introduction to AI Literacy </h2>
+    </div>
+
+
+  <div class="text-black">
+  <form>
+    <div class="flex space-x-4 mb-6">
+      <div class="flex-1">
+        <label for="first-name" class="block text-sm font-medium text-gray-400 mb-1">First Name</label>
+        <input type="text" id="first-name" name="first-name"
+          class="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          required placeholder="Enter your first name" />
+      </div>
+
+      <div class="flex-1">
+        <label for="last-name" class="block text-sm font-medium text-gray-400 mb-1">Last Name</label>
+        <input type="text" id="last-name" name="last-name"
+          class="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          required placeholder="Enter your last name" />
+      </div>
+    </div>
+
+    <!-- Phone Input - Full width container -->
+    <div class="mb-8 w-full">
+      <label for="phone" class="block text-sm font-medium text-gray-400 mb-1">Phone</label>
+      <input type="tel" id="phone" name="phone"
+        class="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        required placeholder="Enter your phone" />
+    </div>
+
+    <div class="mb-8">
+      <label for="email" class="block text-sm font-medium text-gray-400 mb-1">Email</label>
+      <input type="email" id="email" name="email"
+        class="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        required placeholder="Enter your Email" />
+    </div>
+
+    <div class="mb-8">
+      <label for="Country" class="block text-sm font-medium text-gray-400 mb-1">Country</label>
+      <input type="text" id="Country" name="Country"
+        class="w-full px-4 py-2 border border-gray-300 rounded-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+        required placeholder="Enter your Country" />
+    </div>
+
+    <!-- Submit Button -->
+    <div>
+      <button type="submit"
+        class="w-full text-white bg-[#ef4256] py-2 px-4 rounded-lg  focus:outline-none focus:ring-2 focus:ring-blue-500">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+
+
+  </section>
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

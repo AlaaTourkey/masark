@@ -1,0 +1,16 @@
+
+:root{
+  --mainColor : #ef4256;
+  --secondaryColor : #2b2f54;
+}
+body {
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--secondaryColor);
+}
+.mainColor {
+  color: #ef4256;
+}
+.custom-list {
+  list-style-type: circle;
+}
