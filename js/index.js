@@ -9,20 +9,20 @@ function toggleAccordion(clickedHeader) {
     if (accordion.contains(clickedHeader)) {
       if (content.classList.contains('max-h-0')) {
         content.classList.remove('max-h-0');
-        content.classList.add('max-h-screen');
+        content.classList.add('max-h-[120%]');
         icon.className = 'icon fa-solid fa-angle-up';
         header.classList.remove('bg-gray-300');
         header.classList.add('bg-[#ef4256]', 'text-white'); 
       } else {
         content.classList.add('max-h-0');
-        content.classList.remove('max-h-screen');
+        content.classList.remove('max-h-[120%]');
         icon.className = 'icon fa-solid fa-angle-down';
         header.classList.remove('bg-[#ef4256]', 'text-white');
         header.classList.add('bg-gray-300');
       }
     } else {
       content.classList.add('max-h-0');
-      content.classList.remove('max-h-screen');
+      content.classList.remove('max-h-[120%]');
       icon.className = 'icon fa-solid fa-angle-down';
       const otherHeader = accordion.querySelector('.accordion-header');
       otherHeader.classList.remove('bg-[#ef4256]', 'text-white');
