@@ -14,3 +14,8 @@ body {
 .custom-list {
   list-style-type: circle;
 }
+
+.iti__country.iti__highlight {
+  background-color: #808587 !important; 
+  color: #000 !important;
+}
