@@ -82,7 +82,7 @@ document.querySelector("#phone").addEventListener("blur", function () {
   const fullNumber = iti.getNumber();
 
   if (!phonePattern.test(fullNumber)) {
-    resultMessage.textContent = "Please enter a valid phone number like  01068894543 or  1068894543.";
+    resultMessage.textContent = "Please enter a valid phone number like  01089468543 or  1089468543.";
     resultMessage.style.color = "red";
     console.log("noooooooooo");
 

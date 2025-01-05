@@ -4,9 +4,9 @@
   --secondaryColor : #2b2f54;
 }
 body {
-  color: #fff;
+  /* color: #fff; */
   font-family: "Outfit", sans-serif;
-  background-color: var(--secondaryColor);
+  /* background-color: var(--secondaryColor); */
 }
 .mainColor {
   color: #ef4256;
