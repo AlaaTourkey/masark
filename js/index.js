@@ -35,7 +35,7 @@ function toggleAccordion(clickedHeader) {
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     margin: 10,
-    stagePadding: 60,
+    stagePadding: 30,
     loop: true,
     autoplay: true,
     autoplayTimeout: 2500,
@@ -44,7 +44,7 @@ $(document).ready(function () {
     dots: true,
     responsive: {
       0: {
-        items: 1,
+        items: 2,
       },
       600: {
         items: 3,
